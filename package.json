@@ -10,7 +10,8 @@
   "main": "main.js",
   "scripts": {
     "build": "webpack -p",
-    "dev": "webpack --watch"
+    "dev": "webpack --watch",
+    "start": "webpack -p --watch"
   },
   "author": "Shea Ivey",
   "license": "MIT",

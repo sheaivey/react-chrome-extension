@@ -1,13 +1,20 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="author" content="cTn"/>
-    <link type="text/css" rel="stylesheet" href="/public/css/main.css" media="all"/>
-    <title>React Chrome Extension</title>
+    <style>
+      html, body, iframe {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+        border: none;
+        overflow: hidden;
+      }
+    </style>
 </head>
 <body>
-  <div id="root">Loading...</div>
-  <script type="text/javascript" src="/dist/bundle.js"></script>
+  <iframe id="rootWindow" src="/src/app.html"></iframe>
 </body>
 </html>
