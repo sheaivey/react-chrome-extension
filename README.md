@@ -48,8 +48,7 @@ yarn run build
 /src
   /app (react app source)
     index.js (react entry point for webpack)
-  app.html (react app)
   main.js (chrome extension entry point)
-  main.html (base html entry with iframe for react-router)
+  main.html (base html)
 manifest.json (chrome extension definitions)
 ```
