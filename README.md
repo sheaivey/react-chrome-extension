@@ -34,7 +34,7 @@ yarn run build
 1. In chrome navigate to `chrome://extensions/`
 2. Enable developer mode by checking the checkbox on the top right labeled `Developer Mode`.
 3. Click `Load unpacked extension...` and navigate to the project directory.
-4. Once added to the extensions list you will need to `Reload` any time you make a change to the source.
+4. Once added to the extensions list the app will watch for changes and reload the iframe in development.
 5. Have fun!
 
 ## Directory Structor
