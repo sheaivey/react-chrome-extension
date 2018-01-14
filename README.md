@@ -1,9 +1,7 @@
 # React Chrome Extension
 This is meant to be a starting point for ReactJS chrome extensions.
 
-
-
-## Installations
+## Installation
 You will need the latest yarn
 
 ```
@@ -32,7 +30,14 @@ yarn run dev
 yarn run build
 ```
 
-## directory structor
+## Add Extension to Chrome
+1. In chrome navigate to `chrome://extensions/`
+2. Enable developer mode by checking the checkbox on the top right labeled `Developer Mode`.
+3. Click `Load unpacked extension...` and navigate to the project directory.
+4. Once added to the extensions list you will need to `Reload` any time you make a change to the source.
+5. Have fun!
+
+## Directory Structor
 ```
 /dist (compiled react app)
 /public (static assets)
