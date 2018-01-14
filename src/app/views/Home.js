@@ -1,9 +1,7 @@
 import React from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
 
-export default class Welcome extends React.Component {
-  componentDidMount() {
-    document.title = chrome.runtime.getManifest().name;
-  }
+export default class Home extends React.Component {
   render() {
     return (
       <div>

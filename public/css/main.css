@@ -2,3 +2,7 @@ body {
   text-align: center;
   padding-top: 180px;
 }
+
+a {
+  margin-right: 5px;
+}

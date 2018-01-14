@@ -40,17 +40,9 @@ function startHotReload() {
       const reload = () => {
         const rootWindow = chrome.app.window.getAll()[0];
         if(rootWindow) {
-          // reload the entire app
-          // console.log('hot reloading app...');
-          // chrome.runtime.reload();
-
-          var frame = rootWindow.contentWindow.document.getElementById("rootWindow");
-          if(frame) {
-            console.log('hot reloading app...');
-            frame.contentWindow.window.location.reload(true);
-            // start watching for changes again.
-            chrome.runtime.getPackageDirectoryEntry(dir => watchChanges (dir));
-          }
+          //reload the entire app
+          console.log('hot reloading app...');
+          chrome.runtime.reload();
         }
       }
 

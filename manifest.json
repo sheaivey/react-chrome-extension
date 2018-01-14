@@ -15,9 +15,6 @@
     },
 
     "permissions": [
-        "http://*/",
-        "https://*/",
-        "https://*.github.com/",
         "serial",
         "usb",
         "storage",
