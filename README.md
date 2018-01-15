@@ -1,6 +1,8 @@
 # React Chrome Extension
 This is meant to be a starting point for ReactJS chrome extensions.
 
+A react-router example can be found in the [`react-router`](https://github.com/sheaivey/react-chrome-extension/tree/react-router) branch.
+
 ## Installation
 You will need the latest yarn
 
