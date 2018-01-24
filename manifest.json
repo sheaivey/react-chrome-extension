@@ -14,19 +14,7 @@
         }
     },
 
-    "permissions": [
-        "serial",
-        "usb",
-        "storage",
-        "fileSystem",
-        "fileSystem.write",
-        "fileSystem.retainEntries",
-        "notifications",
-        "alwaysOnTopWindows",
-        {"usbDevices": [
-            {"vendorId": 1155, "productId": 57105}
-        ]}
-    ],
+    "permissions": [],
     "icons": {
         "128": "/public/img/icon.png"
     }
